@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>hp = 100;
 spd = 4;
+state = scr_move_player;
 </string>
           </argument>
         </arguments>
@@ -49,7 +50,7 @@ spd = 4;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>scr_move_player();
+            <string>script_execute(state);
 </string>
           </argument>
         </arguments>
